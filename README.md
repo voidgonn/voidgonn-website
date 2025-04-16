@@ -1,2 +1,2 @@
 # voidgonn-website
-Source code for my neocity website.
+Source code for my neocities website.
