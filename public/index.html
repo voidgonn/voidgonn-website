@@ -3,15 +3,27 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
+    <div class="container" id="main">
       Hi, I'm
-      <div class="stack" style="--stacks: 3;">
-        <span style="--index: 0;">VOIDGONN</span>
-        <span style="--index: 1;">VOIDGONN</span>
-        <span style="--index: 2;">VOIDGONN</span>
+      <div class="stack" style="--stacks: 3">
+        <span style="--index: 0">VOIDGONN</span>
+        <span style="--index: 1">VOIDGONN</span>
+        <span style="--index: 2">VOIDGONN</span>
       </div>
       <span class="right">This site is under construction</span>
-      <img src="./assets/first-button.gif">
+      <img src="./assets/first-button.gif" />
+
+      <div id="update">
+        <h2>~latest update~</h2>
+        <div id="statuscafe">
+          <div id="statuscafe-username"></div>
+          <div id="statuscafe-content"></div>
+        </div>
+        <script
+          src="https://status.cafe/current-status.js?name=voidgonn"
+          defer
+        ></script>
+      </div>
     </div>
   </body>
 </html>
